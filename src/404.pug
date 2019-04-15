@@ -1,0 +1,60 @@
+extends common/layout
+block content
+  // Page Content
+  .container
+    // Page Heading/Breadcrumbs
+    h1.mt-4.mb-3
+      | 404
+      small Page Not Found
+    ol.breadcrumb
+      li.breadcrumb-item
+        a(href='index.html') Home
+      li.breadcrumb-item.active 404
+    .jumbotron
+      h1.display-1 404
+      p
+        | The page you're looking for could not be found. Here are some helpful links to get you back on track:
+      ul
+        li
+          a(href='index.html') Home
+        li
+          a(href='about.html') About
+        li
+          a(href='services.html') Services
+        li
+          a(href='contact.html') Contact
+        li
+          | Portfolio
+          ul
+            li
+              a(href='portfolio-1-col.html') 1 Column Portfolio
+            li
+              a(href='portfolio-2-col.html') 2 Column Portfolio
+            li
+              a(href='portfolio-3-col.html') 3 Column Portfolio
+            li
+              a(href='portfolio-4-col.html') 4 Column Portfolio
+        li
+          | Blog
+          ul
+            li
+              a(href='blog-home-1.html') Blog Home 1
+            li
+              a(href='blog-home-2.html') Blog Home 2
+            li
+              a(href='blog-post.html') Blog Post
+        li
+          | Other Pages
+          ul
+            li
+              a(href='full-width-page.html') Full Width Page
+            li
+              a(href='sidebar.html') Sidebar Page
+            li
+              a(href='faq.html') FAQ
+            li
+              a(href='404.html') 404 Page
+            li
+              a(href='pricing-table.html') Pricing Table
+    // /.jumbotron
+  // /.container
