@@ -35,7 +35,7 @@
     "devDependencies": {
         "bootstrap": "4.3.1",
         "font-awesome": "^4.7.0",
-        "jquery": "3.3.1",
+        "jquery": "3.5.0",
         "@babel/core": "^7.4.0",
         "babel-loader": "^8.0.5",
         "babel-preset-env": "^1.7.0",
